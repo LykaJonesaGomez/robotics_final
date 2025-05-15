@@ -100,10 +100,7 @@ ul {
 }
 
 .testimonial img {
-    max-width: 200px; /* Adjust as needed */
-    display: block; /* Prevents extra space below image */
-    margin: 0 auto; /* Centers the image */
-    border-radius: 100%;
+border: 5px solid #000; / *5px wide border, color: gray */border-radius: 0%; /*Removes any rounded corners*/
 }
 
 
