@@ -54,32 +54,6 @@ ul {
     max-height: 50px;
 }
 
-.testimonials-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows testimonials to wrap */
-    justify-content: border-box;
-}
-
-.testimonial {
-    border: 1px solid #ccc;
-    padding: 1em;
-    margin-bottom: 1em;
-    width: 45%; /* Adjust as needed */
-    border-radius: 50%;
-    box-sizing: border-box; /* Includes padding in element width */
-}
-
-.testimonial img {
-  width: 8rem;
-  height: 10rem;
-  border: 2px solid #000; /* Adjust border width and color as needed */
-  object-fit: cover; /* This will maintain aspect ratio while filling the container */
-}
-
-#testimonials {
-  text-align: center; /* Center the heading */
-}
-
 .testimonial-slider {
   display: flex;
   align-items: center; /* Vertically center elements */
@@ -87,6 +61,25 @@ ul {
   padding: 2rem; /* Add padding around the slider */
 }
 
+.testimonials-container {
+  display: flex; /* Arrange testimonials horizontally */
+  gap: 2rem; /* Spacing between testimonials */
+  scroll-snap-type: x mandatory; /* Enable snap scrolling */
+}
+
+.testimonial {
+  flex-shrink: 0; /* Prevents images from shrinking below their set size */
+  scroll-snap-align: start; /* Ensures images snap to the start */
+  min-width: 10rem; /* Minimum width for each testimonial */
+}
+
+.testimonial img {
+  width: 7rem;
+  height: 10rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
 footer {
     background-color: #f0f0f0;
     text-align: center;
