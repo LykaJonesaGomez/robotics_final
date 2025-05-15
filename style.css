@@ -58,31 +58,11 @@ ul {
   text-align: center; /* Center the heading */
 }
 
-.testimonial-slider {
-  display: flex;
-  align-items: center; /* Vertically center elements */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  padding: 2rem; /* Add padding around the slider */
-}
-
-.testimonials-container {
-  display: flex; /* Arrange testimonials horizontally */
-  gap: 2rem; /* Spacing between testimonials */
-  scroll-snap-type: x mandatory; /* Enable snap scrolling */
-}
-
-.testimonial {
-  flex-shrink: 0; /* Prevents images from shrinking below their set size */
-  scroll-snap-align: start; /* Ensures images snap to the start */
-  min-width: 10rem; /* Minimum width for each testimonial */
-}
-
 .testimonial img {
-  width: 10rem;
-  height: 15rem;
-  border: 2px solid #ccc;
-  border-radius: 100px;
-  object-fit: cover; /* Maintain aspect ratio */
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid gray; /*  2px wide gray border */
+  object-fit: cover; /* Maintains aspect ratio while filling the container */
 }
 
 footer {
