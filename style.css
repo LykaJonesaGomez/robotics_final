@@ -70,8 +70,10 @@ ul {
 }
 
 .testimonial img {
-  border: 5px solid #000; / *5px wide border, color: gray */border-radius: 0%; /*Removes any rounded corners*/
-}
+  width: 8rem;
+  height: 10rem;
+  border: 2px solid #000; /* Adjust border width and color as needed */
+  object-fit: cover; /* This will maintain aspect ratio while filling the container */
 }
 
 #testimonials {
@@ -84,23 +86,6 @@ ul {
   overflow-x: auto; /* Enable horizontal scrolling */
   padding: 2rem; /* Add padding around the slider */
 }
-
-.testimonials-container {
-  display: flex; /* Arrange testimonials horizontally */
-  gap: 2rem; /* Spacing between testimonials */
-  scroll-snap-type: x mandatory; /* Enable snap scrolling */
-}
-
-.testimonial {
-  flex-shrink: 0; /* Prevents images from shrinking below their set size */
-  scroll-snap-align: start; /* Ensures images snap to the start */
-  min-width: 10rem; /* Minimum width for each testimonial */
-}
-
-.testimonial img {
-border: 5px solid #000; / *5px wide border, color: gray */border-radius: 0%; /*Removes any rounded corners*/
-}
-
 
 footer {
     background-color: #f0f0f0;
