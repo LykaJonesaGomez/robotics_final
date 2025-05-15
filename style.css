@@ -70,8 +70,10 @@ ul {
 }
 
 .testimonial img {
-    width: 25px: /*or 15rem, adjust as needed */
-    height: auto; /*This allow the height to adjust automatically to maintain aspect ration */
+    max-width: 150px; /* Adjust as needed */
+    display: block; /* Prevents extra space below image */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 50%;
 }
 
 #testimonials {
@@ -98,11 +100,10 @@ ul {
 }
 
 .testimonial img {
-  width: 5rem;
-  height: 5rem;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  object-fit: cover; /* Maintain aspect ratio */
+    max-width: 150px; /* Adjust as needed */
+    display: block; /* Prevents extra space below image */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 50%;
 }
 
 .prev-btn, .next-btn {
