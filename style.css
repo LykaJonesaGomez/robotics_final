@@ -64,13 +64,13 @@ ul {
     border: 1px solid #ccc;
     padding: 1em;
     margin-bottom: 1em;
-    width: 100%; /* Adjust as needed */
+    width: 45%; /* Adjust as needed */
     border-radius: 50%;
     box-sizing: border-box; /* Includes padding in element width */
 }
 
 .testimonial img {
-    width: 150px: /*or 15rem, adjust as needed */
+    width: 25px: /*or 15rem, adjust as needed */
     height: auto; /*This allow the height to adjust automatically to maintain aspect ration */
 }
 
@@ -98,8 +98,8 @@ ul {
 }
 
 .testimonial img {
-  width: 7rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   border: 2px solid #ccc;
   border-radius: 5px;
   object-fit: cover; /* Maintain aspect ratio */
