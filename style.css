@@ -69,6 +69,11 @@ ul {
     box-sizing: border-box; /* Includes padding in element width */
 }
 
+.testimonial img {
+    width: 150px: /*or 15rem, adjust as needed */
+    height: auto; /*This allow the height to adjust automatically to maintain aspect ration */
+}
+
 footer {
     background-color: #f0f0f0;
     text-align: center;
