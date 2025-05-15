@@ -54,6 +54,10 @@ ul {
     max-height: 50px;
 }
 
+#testimonials {
+  text-align: center; /* Center the heading */
+}
+
 .testimonial-slider {
   display: flex;
   align-items: center; /* Vertically center elements */
@@ -74,12 +78,13 @@ ul {
 }
 
 .testimonial img {
-  width: 7rem;
-  height: 10rem;
+  width: 10rem;
+  height: 15rem;
   border: 2px solid #ccc;
-  border-radius: 5px;
+  border-radius: 100px;
   object-fit: cover; /* Maintain aspect ratio */
 }
+
 footer {
     background-color: #f0f0f0;
     text-align: center;
