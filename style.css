@@ -59,10 +59,11 @@ ul {
 }
 
 .testimonial img {
-  width: 5rem;
-  height: 5rem;
-  border: 10px solid gray; /*  10px wide gray border */
+  width: 10rem;
+  height: 10rem;
+  border: 50px solid gray; /*  50px wide gray border */
   object-fit: cover; /* Maintains aspect ratio while filling the container */
+  border-radius: 0;
 }
 
 footer {
