@@ -61,7 +61,7 @@ ul {
 .testimonial img {
   width: 10rem;
   height: 10rem;
-  border: 0px solid gray; /*  0px wide gray border */
+  border: 5px solid gray; /*  5px wide gray border */
   object-fit: cover; /* Maintains aspect ratio while filling the container */
   border-radius: 0;
 }
