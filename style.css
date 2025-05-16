@@ -23,7 +23,7 @@ h1, h2 {
     font-weight: bold;
     text-align: center;
     background-color: #f0f0f0;
-    color: gray;
+    color: dark gray;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h2 {
 }
 
 .profile-image img {
-    max-width: 150px; /* Adjust as needed */
+    max-width: 200px; /* Adjust as needed */
     display: block; /* Prevents extra space below image */
     margin: 0 auto; /* Centers the image */
     border-radius: 50%;
