@@ -21,6 +21,7 @@ section {
 
 h1, h2 {
     font-weight: bold;
+     text-align: center; text-align: center;
 }
 
 h1 {
@@ -65,16 +66,6 @@ ul {
   height: 28rem;
   border: 5px dashed gray; /*  5px wide gray border */
   border-radius: 0;
-}
-
-prev-btn, .next-btn {
-    padding: 1rem 2rem;
-    background-color: gray;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0.1rem;
 }
     
 footer {
