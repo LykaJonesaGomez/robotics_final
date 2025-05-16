@@ -59,8 +59,8 @@ ul {
 }
 
 .testimonial img {
-  width: 35rem;
-  height: 40rem;
+  width: 20rem;
+  height: 25rem;
   border: 5px dashed gray; /*  5px wide gray border */
   border-radius: 0;
 }
@@ -84,6 +84,6 @@ footer {
 /* Responsive Design (example for smaller screens):*/
 @media (max-width: 768px) {
     .testimonial {
-        width: 45%; /* Adjust width for smaller screens */
+        width: 35%; /* Adjust width for smaller screens */
     }
 }
