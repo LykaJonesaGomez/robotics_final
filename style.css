@@ -21,7 +21,7 @@ section {
 
 h1, h2 {
     font-weight: bold;
-     text-align: center; text-align: center;
+    text-align: center;
 }
 
 h1 {
@@ -64,7 +64,7 @@ ul {
 .testimonial img {
   width: 25rem;
   height: 28rem;
-  border: 5px dashed gray; /*  5px wide gray border */
+  border: 8px dashed gray; /*  8px wide gray border */
   border-radius: 0;
 }
     
