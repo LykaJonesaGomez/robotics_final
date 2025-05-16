@@ -59,15 +59,15 @@ ul {
 }
 
 .testimonial img {
-  width: 15rem;
-  height: 15rem;
-  border: 0px dashed gray; /*  0px wide gray border */
+  width: 20rem;
+  height: 25rem;
+  border: 5px dashed gray; /*  5px wide gray border */
   border-radius: 0;
 }
 
 prev-btn, .next-btn {
     padding: 1rem 2rem;
-        background-color: #4CAF50;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 5px;
@@ -84,6 +84,6 @@ footer {
 /* Responsive Design (example for smaller screens):*/
 @media (max-width: 768px) {
     .testimonial {
-        width: 45%; /* Adjust width for smaller screens */
+        width: 20%; /* Adjust width for smaller screens */
     }
 }
