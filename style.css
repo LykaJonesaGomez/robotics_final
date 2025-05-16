@@ -55,12 +55,12 @@ ul {
 }
 
 #testimonials {
-  text-align: center; /* Center the heading */
+  text-align: horizontal; /* Center the heading */
 }
 
 .testimonial img {
-  width: 20rem;
-  height: 25rem;
+  width: 35rem;
+  height: 40rem;
   border: 5px dashed gray; /*  5px wide gray border */
   border-radius: 0;
 }
@@ -84,6 +84,6 @@ footer {
 /* Responsive Design (example for smaller screens):*/
 @media (max-width: 768px) {
     .testimonial {
-        width: 20%; /* Adjust width for smaller screens */
+        width: 45%; /* Adjust width for smaller screens */
     }
 }
