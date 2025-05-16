@@ -22,8 +22,8 @@ section {
 h1, h2 {
     font-weight: bold;
     text-align: center;
-    h2-font-color: white;
-    h2-background-color: gray;
+    text-shadow: 1px 1px 0transparent;
+    color: white;
 }
 
 h1 {
